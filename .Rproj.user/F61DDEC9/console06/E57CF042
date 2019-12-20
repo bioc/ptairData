@@ -1,0 +1,76 @@
+[?25l[0mMicrosoft Windows [version 10.0.17763.864][0K
+(c) 2018 Microsoft Corporation. Tous droits réservés.[0K
+[0K
+C:\Users\CR258086\Documents\Source\ptairData>[0K
+[0K[0m[1;1H[2J[0m[0K[?25l
+C:\Users\CR258086\Documents\Source\ptairData>[0K[?25h[?25l
+C:\Users\CR258086\Documents\Source\ptairData>[0K[?25hg[0Ki[0Kt[0K[50G[?25lC:\Users\CR258086\Documents\Source\ptairData>git i[0K[?25hn[0Ki[0Kt[0K[?25l
+[0K[?25h]0;  - git  init]0; Initialized empty Git repository in C:/Users/CR258086/Documents/Source/ptairData/.git/[0K[?25l
+[0K
+C:\Users\CR258086\Documents\Source\ptairData>[0K[?25hg[0Ki[0Kt[0K[50G[?25lC:\Users\CR258086\Documents\Source\ptairData>git a[0K[?25hd[0Kd[0K]0;  - git  add[?25l
+[0K[?25h]0; Nothing specified, nothing added.[0K[?25l
+Maybe you wanted to say 'git add .'?[0K
+[0K
+C:\Users\CR258086\Documents\Source\ptairData>[0K[?25hgit add[0K[54G[?25lC:\Users\CR258086\Documents\Source\ptairData>git add -[0K[?25ha[0K]0;  - git  add -a[?25l
+[0K[?25h]0; error: unknown switch `a'[0K[?25l
+usage: git add [<options>] [--] <pathspec>...[0K
+[0K
+    -n, --dry-run         dry run[0K
+    -v, --verbose         be verbose[0K
+[0K
+    -i, --interactive     interactive picking[0K
+    -p, --patch[=<patch-mode>][0K
+                          select hunks interactively[0K
+    -e, --edit            edit current diff and apply[0K
+    -f, --force           allow adding otherwise ignored files[0K
+    -u, --update          update tracked files[0K
+    --renormalize         renormalize EOL of tracked files (implies -u)[0K
+    -N, --intent-to-add   record only the fact that the path will be added later[0K
+    -A, --all             add changes from all tracked and untracked files[0K
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)[0K
+    --refresh             don't add, only refresh the index[0K
+    --ignore-errors       just skip files which cannot be added because of errors[0K
+    --ignore-missing      check if - even missing - files are ignored in dry run[0K
+    --chmod (+|-)x        override the executable bit of the listed files[0K
+[0K
+[0K
+C:\Users\CR258086\Documents\Source\ptairData>[0K[?25hg[0Ki[0Kt[0K[50G[?25lC:\Users\CR258086\Documents\Source\ptairData>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[57G]0;  - git  commit [?25l
+[0K[?25hOn branch master[0K[?25l
+[0K
+Initial commit[0K
+[0K
+Untracked files:[0K
+        [0;31m.Rbuildignore[0m[0K
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+        [0;31mDESCRIPTION[0m[0K
+        [0;31mNAMESPACE[0m[0K
+        [0;31minst/[0m[0K
+        [0;31mptrData.Rproj[0m[0K
+[0K
+nothing added to commit but untracked files present[0K
+[0K[?25h]0; [?25l
+C:\Users\CR258086\Documents\Source\ptairData>[0K[?25hgit commit[0K[57G[?25lC:\Users\CR258086\Documents\Source\ptairData>git add -a[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git add[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git init[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git add[0K[?25h -a[0K[?25lC:\Users\CR258086\Documents\Source\ptairData>git commit[0K[57G[?25h[56G[?25lC:\Users\CR258086\Documents\Source\ptairData>git commi[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git comm[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git com[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git c[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git[0K[50G[?25h[49G[?25lC:\Users\CR258086\Documents\Source\ptairData>gi[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>g[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>[0K[?25h^V[0K[?25lC:\Users\CR258086\Documents\Source\ptairData>[0K[?25h^V[0K[?25lC:\Users\CR258086\Documents\Source\ptairData>[0K[?25hgit remote add origin[0K[68G[?25lC:\Users\CR258086\Documents\Source\ptairData>git remote add origin https://github.com/camilleroquencourt/ptairData.git[0K[?25h]0;  - git  remote add origin https://github.com/camilleroquencourt/ptairData.git[?25l
+[0K[?25h]0; [?25l
+C:\Users\CR258086\Documents\Source\ptairData>[0K[?25hg[0Ki[0Kt[0K[50G[?25lC:\Users\CR258086\Documents\Source\ptairData>git p[0K[?25hu[0Ks[0Kh[0K[55G[?25lC:\Users\CR258086\Documents\Source\ptairData>git push -[0K[?25hu[0K[58G[?25lC:\Users\CR258086\Documents\Source\ptairData>git push -u o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[65G[?25lC:\Users\CR258086\Documents\Source\ptairData>git push -u origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K]0;  - git  push -u origin master[?25l
+[0K[?25h]0; error: src refspec master does not match any[0K[?25l
+[0;31merror: failed to push some refs to 'https://github.com/camilleroquencourt/ptairData.git'[0m[0K
+[0K
+C:\Users\CR258086\Documents\Source\ptairData>[0K[?25hgit push -u origin master[0K[?25lC:\Users\CR258086\Documents\Source\ptairData>git remote add origin https://github.com/camilleroquencourt/ptairData.git[0K[?25h]0;  - git  remote add origin https://github.com/camilleroquencourt/ptairData.git[?25l
+[0K[?25h]0; fatal: remote origin already exists.[0K[?25l
+[0K
+C:\Users\CR258086\Documents\Source\ptairData>[0K[?25hgit remote add origin https://github.com/camilleroquencourt/ptairData.git[0K[?25lC:\Users\CR258086\Documents\Source\ptairData>git commit[0K[57G[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git add -a[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git add[0K[?25h -a[0K[?25lC:\Users\CR258086\Documents\Source\ptairData>git commit[0K[57G[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git remote add origin https://github.com/camilleroquencourt/ptairData.git[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git push -u origin master[0K[?25h[70G[69G[68G[67G[66G[64G[63G[61G[60G[59G[58G[57G[56G[55G[54G[?25lC:\Users\CR258086\Documents\Source\ptairData>git pus -u origin master[0K[53G[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git pu -u origin master[0K[52G[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git p -u origin master[0K[51G[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git pu -u origin master[0K[52G[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git pul -u origin master[0K[53G[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git pull -u origin master[0K[54G[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git pull-u origin master[0K[54G[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git pullu origin master[0K[54G[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git pull origin master[0K[54G[?25h[?25l
+[0K[?25h]0;  - git  pull origin masterremote: Enumerating objects: 9, done.[0K[?25l
+remote: Counting objects: 100% (9/9), done.[0K
+[0K[?25hremote: Compressing objects: 100% (5/5), done.[0K[?25l
+remote: Total 9 (delta 1), reused 0 (delta 0), pack-reused 0[0K
+[0K[?25h[?25lUnpacking objects:  22% (2/9)[0K[1G[?25h[?25lUnpacking objects:  77% (7/9)[0K[1G[?25hUnpacking objects: 100% (9/9), done.[0K[?25l
+[0K[?25hFrom https://github.com/camilleroquencourt/ptairData[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+[0K[?25h * [new branch]      master     -> origin/master[0K[?25l
+[0K[?25h]0; [?25l
+C:\Users\CR258086\Documents\Source\ptairData>[0K[?25hgit pull origin master[0K[?25lC:\Users\CR258086\Documents\Source\ptairData>git remote add origin https://github.com/camilleroquencourt/ptairData.git[0K[?25h[?25lC:\Users\CR258086\Documents\Source\ptairData>git push -u origin master[0K[?25h]0;  - git  push -u origin master[?25l
+[0K[?25hEverything up-to-date[0K[?25l
+[0K[?25h]0; Branch 'master' set up to track remote branch 'master' from 'origin'.[0K[?25l
+[0K
+C:\Users\CR258086\Documents\Source\ptairData>[0K[?25hg[0Ki[0Kt[0K[50G[?25lC:\Users\CR258086\Documents\Source\ptairData>git a[0K[?25hd[0Kd[0K[54G[?25lC:\Users\CR258086\Documents\Source\ptairData>git add -[0K[?25hA[0K

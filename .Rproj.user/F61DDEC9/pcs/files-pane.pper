@@ -1,0 +1,9 @@
+{
+    "path" : "~/Source/ptrData",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
