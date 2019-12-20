@@ -1,6 +1,6 @@
 # ptairData
 
-Two real PTR-TOF-MS raw data sets are available on the `ptairData` package.
+This package contains two real PTR-TOF-MS raw data sets for ptairMS package:
 
 - exhaled air of two healthy individal: three acquisitions per individual on diffrents day with two exprirations
 
