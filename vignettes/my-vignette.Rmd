@@ -1,12 +1,12 @@
 ---
-title: "PTR-TOF-MS dataset description "
+title: "PTR-TOF-MS volatolomics datasets description"
 author: "Camille Roquencourt, Stanislas Grassin Delyle and Etienne Thevenot"
 package: "`r pkg_ver('ptairData')`"
 vignette: >
   %\VignetteIndexEntry{PTR-TOF-MS dataset}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
-  %\VignetteKeywords{MassSpectrometry, volatolmic, PTR-TOF-MS}
+  %\VignetteKeywords{MassSpectrometry, Volatolomics, PTR-TOF-MS}
 output:
   BiocStyle::html_document:
     toc: yes
@@ -23,19 +23,20 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Description 
-This package contains two real PTR-TOF-MS [Blake et al, 2004](https://pubs.acs.org/doi/10.1021/ac0498260) raw data sets, classed in two subfolders:  
+# Description
 
-- **exhaledAir**: Exhaled air from two healthy individual, three acquisitions per individual with two expirations per acquisition, with Buffered end-tidal (BET) sampling  [Herbig et al, 2008](http://stacks.iop.org/1752-7163/2/i=3/a=037008?key=crossref.6c1463e66d0714dce9de2a6cfe05bf66)), on distinct days [6 files]
+This package contains two volatolomics raw datasets acquired with a Proton-Transfer-Reaction Time-of-Flight mass spectrometer (PTR-TOF-MS; Ionicon Analytik GmbH, Innsbruck, Austria). They are stored in two subfolders:  
 
-- **mycobacteria**: cell culture headspace: two replicates from two species and one control (culture medium) [6 files]
+- **exhaledAir**: Exhaled air from two healthy individuals, three acquisitions per individual on distinct days [6 files in total], with two expirations per acquisition and Buffered end-tidal (BET) sampling [Herbig et al, 2008](http://stacks.iop.org/1752-7163/2/i=3/a=037008?key=crossref.6c1463e66d0714dce9de2a6cfe05bf66))
+
+- **mycobacteria**: cell culture headspace: two replicates from two species and one control (culture medium only) [6 files]
 
 
 # Format
 
-Those files are in hdf5 ([HDF5](https://www.hdfgroup.org)) format, provided by a proton-transfer-reaction
-quadrupole time-of-flight mass spectrometer (Ionicon Analytik GmbH, Innsbruck, Austria). 
+The files are in the open Hierarchical Data Format ([HDF5](https://www.hdfgroup.org)). To limit the size of the data and speed up the analysis in demo examples, the raw data are truncated in the m/z dimension within the range $[20.4, 21.6] \cup [50, 150]$ for individuals, and $[20.4, 21.6] \cup [56.4, 90.6]$ for mycobacteria.
 
-To limit the size of the data and speed up the analysis, the raw data are truncated in the mass dimension within the range $[20.4,21.6] \cup [50,150]$ for individuals, and $[20.4,21.6] \cup [56.4,90.6]$ for mycobacteria.
+# Processing
 
+The ptairMS package (also available on Bioconductor) is devoted to the processing of PTR-TOF-MS data.
 
