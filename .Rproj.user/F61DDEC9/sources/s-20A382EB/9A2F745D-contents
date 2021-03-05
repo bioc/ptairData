@@ -1,9 +1,0 @@
-Package: ptairData
-Title: PTR-TOF-MS raw data from exhaled air and mycobacteria culture air in h5 format
-Version: 0.1.0
-Authors@R: person("camille", "Roquencourt", email = "camille.roquencourt@cea.fr", role = c("aut", "cre"))
-Description: PTR-TOF-MS data from exhaled for ptairMS package 
-License: GPL-3
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.0.2

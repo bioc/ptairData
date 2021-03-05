@@ -1,9 +1,17 @@
 Package: ptairData
-Title: PTR-TOF-MS raw data from exhaled air and mycobacteria culture air in h5 format
+Title: PTR-TOF-MS raw data from exhaled air and cell culture air
 Version: 0.1.0
-Authors@R: person("camille", "Roquencourt", email = "camille.roquencourt@cea.fr", role = c("aut", "cre"))
-Description: PTR-TOF-MS data from exhaled for ptairMS package 
+Authors@R: person("camille", "Roquencourt", email = "camille.roquencourt@hotmail.fr", role = c("aut", "cre"))
+Description: The package ptairData contains two proton-transfer-reaction quadrupole time-of-flight mass spectrometer 
+    (PTR-TOF-MS) raw datasets in hdf5 format: one of exhaled air from two volunteer healthy individuals, and one of cell culture 
+    headspace of two species and one control (culture medium). Those datasets are used for run examples and vignette 
+    of ptairMS (PTR-TOF-MS data preprocessing package). 
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1
+biocViews: ExperimentData
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
