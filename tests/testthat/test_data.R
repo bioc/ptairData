@@ -13,7 +13,14 @@ test_data <- function() {
                                                                                               "Specie-b/specie-b1.h5",
                                                                                               "Specie-b/specie-b2.h5"))
 
+}
+
+test_load<-function(){
+  data(mycobacteriaSet)
+  data(exhaledPtrset)
+  testthat::expect_is(exhaledPtrset,"ptrSet")
+  testthat::expect_is(mycobacteriaSet,"ptrSet")
   }
 
-
+testthat::test_that("data are loaded",test_load())
 testthat::test_that("All data are presents.", test_data())
