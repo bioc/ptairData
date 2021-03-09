@@ -15,12 +15,4 @@ test_data <- function() {
 
 }
 
-# test_load<-function(){
-#   data(mycobacteriaSet)
-#   data(exhaledPtrset)
-#   testthat::expect_is(exhaledPtrset,"ptrSet")
-#   testthat::expect_is(mycobacteriaSet,"ptrSet")
-#   }
-#
-# testthat::test_that("data are loaded",test_load())
 testthat::test_that("All data are presents.", test_data())
