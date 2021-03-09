@@ -1,6 +1,5 @@
 testthat::context("Test data.")
 
-
 test_data <- function() {
   directory <-  system.file("extdata",  package = "ptairData")
   testthat::expect_equal( list.files(directory) , c("exhaledAir"  , "mycobacteria"))

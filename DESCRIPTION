@@ -10,8 +10,10 @@ Description: The package ptairData contains two raw datasets from Proton-Transfe
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.1.1
-biocViews: ExperimentData
+biocViews: ExperimentData, MassSpectrometryData, CellCulture
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 2.1.0),
+    BiocStyle
 VignetteBuilder: knitr
