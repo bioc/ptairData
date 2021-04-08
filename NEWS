@@ -1,0 +1,9 @@
+Changes in version 0.99.0 (2021-03-05)
++ Submitted to Bioconductor
+
+Changes in version 0.99.7 (2021-04-01)
++ extended description
++ added BugReports to description files
++ completed NEWS file
++ added inst/script/script.R
++ added section installation and sessionInfo to the vignette

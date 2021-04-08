@@ -1,15 +1,19 @@
 Package: ptairData
 Title: PTR-TOF-MS volatolomics raw datasets from exhaled air and cell culture headspace
-Version: 0.99.6
+Version: 0.99.7
 Authors@R: person("camille", "Roquencourt", email = "camille.roquencourt@hotmail.fr", role = c("aut", "cre"))
-Description: The package ptairData contains two raw datasets from Proton-Transfer-Reaction Time-of-Flight mass 
-    spectrometer acquisitions (PTR-TOF-MS), in the HDF5 format: one from the exhaled air of two volunteer healthy 
-    individuals, and one from the cell culture headspace from two mycobacteria species and one control 
-    (culture medium only). Those datasets are used in the examples and in the vignette from the ptairMS package 
-    (PTR-TOF-MS data pre-processing). 
+Description: The package ptairData contains two raw datasets from 
+   Proton-Transfer-Reaction Time-of-Flight mass spectrometer acquisitions (PTR-TOF-MS), 
+   in the HDF5 format. One from the exhaled air of two volunteer healthy 
+   individuals with three replicates, and one from the cell culture headspace 
+   from two mycobacteria species and one control (culture medium only) with two 
+   replicates. Those datasets are used in the examples and in the vignette of 
+   the ptairMS package (PTR-TOF-MS data pre-processing). There are also used to
+   gererate the ptrSet in the ptairMS data : exhaledPtrset and mycobacteriaSet
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.1.1
+BugReports: https://github.com/camilleroquencourt/ptairData/issues
 biocViews: ExperimentData, MassSpectrometryData, CellCulture
 Suggests: 
     knitr,

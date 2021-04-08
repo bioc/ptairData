@@ -23,6 +23,14 @@ knitr::opts_chunk$set(
 )
 ```
 
+# Installation 
+
+```{r, Installation, eval=FALSE }
+if(!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("ptairData")
+```
+
 # Description
 
 This package contains two volatolomics raw datasets acquired with a Proton-Transfer-Reaction Time-of-Flight mass spectrometer (PTR-TOF-MS; Ionicon Analytik GmbH, Innsbruck, Austria). They are stored in two subfolders:  
@@ -39,4 +47,10 @@ The files are in the open Hierarchical Data Format ([HDF5](https://www.hdfgroup.
 # Processing
 
 The ptairMS package (also available on Bioconductor) is devoted to the processing of PTR-TOF-MS data.
+
+# Session info
+
+```{r}
+sessionInfo()
+```
 
