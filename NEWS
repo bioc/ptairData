@@ -7,3 +7,6 @@ Changes in version 0.99.7 (2021-04-01)
 + completed NEWS file
 + added inst/script/script.R
 + added section installation and sessionInfo to the vignette
+
+Changes in version 0.99.8 (2021-04-08)
++ ptairData Watched Tags added to Bioconductor Support Site User Profile
