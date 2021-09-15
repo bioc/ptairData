@@ -1,10 +1,6 @@
 Package: ptairData
 Title: PTR-TOF-MS volatolomics raw datasets from exhaled air and cell culture headspace
-<<<<<<< HEAD
-Version: 1.1.1
-=======
-Version: 1.1.0
->>>>>>> bbfda8851ed9cd14e857f2d49b5f3955f5b36bf5
+Version: 1.1.2
 Authors@R: person("camille", "Roquencourt", email = "camille.roquencourt@hotmail.fr", role = c("aut", "cre"))
 Description: The package ptairData contains two raw datasets from 
    Proton-Transfer-Reaction Time-of-Flight mass spectrometer acquisitions (PTR-TOF-MS), 
